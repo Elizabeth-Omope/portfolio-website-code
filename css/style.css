@@ -600,111 +600,95 @@ color: var(--primary-purple);
 }
 
 
-
-/* Mobile fix */
-@media (max-width: 768px) {
-  .cta-section .col-md-5 {
-    justify-content: flex-start; /* stack nicely on mobile */
-    margin-top: 20px;
-  }
-}
-
-
 /* Responsive Adjustments */
-@media (max-width: 992px) {
-  .hero {
-    text-align: center;
-    padding: 100px 20px;
+@media (max-width: 768px) {
+
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .header-bg {
+    background: url("../images/hero.png") center/cover no-repeat;
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
   }
 
   .navbar .dropdown:hover > .dropdown-menu {
     display: block;
   }
-}
 
-/* Responsive Adjustments */
-@media (max-width: 991px) {
-  .portfolio-card video {
-    height: 180px;
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
   }
-}
 
-@media (max-width: 767px) {
+  .hero h1{
+    font-size: 30px;
+    text-align: left;
+  }
+ 
+  .hero h6{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .hero p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .hero .btn-purple {
+    font-size: 20px;
+  }
+
   .portfolio-card video {
     height: 160px;
   }
+
   .portfolio-card h3 {
     font-size: 1.2rem;
   }
   .portfolio-card p {
     font-size: 0.95rem;
   }
-}
 
-
-/* Responsive */
-@media (max-width: 767px) {
-  .choose-card h4 {
+   .choose-card h4 {
     font-size: 1.2rem;
   }
   .choose-card p {
     font-size: 0.95rem;
   }
-}
 
-/* Responsive Adjustments */
-@media (max-width: 991px) {
   .testimonial-card p {
     font-size: 0.95rem;
   }
   .testimonial-card h5 {
     font-size: 1rem;
   }
-}
 
-@media (max-width: 767px) {
-  .testimonial-card p {
-    font-size: 0.9rem;
-  }
-  .testimonial-card h5 {
-    font-size: 0.95rem;
-  }
-}
-/* Show dropdown on hover (desktop only) */
-@media (min-width: 992px) {
-  .navbar .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-  }
-}
-/* Responsive */
-@media (max-width: 768px) {
   .blog-img img {
     height: 200px;
   }
-}
 
-/* Responsive */
-@media (max-width: 768px) {
-  .cta-title {
+   .cta-section .col-md-5 {
+    justify-content: flex-start; /* stack nicely on mobile */
+    margin-top: 20px;
+  }
+   .cta-title {
     font-size: 2rem;
   }
 
   .cta-text {
     font-size: 1rem;
   }
-}
 
-/* Responsive */
-@media (max-width: 768px) {
   .footer-section {
     text-align: left;
-  }
-}
-
-/* Mobile adjustment */
-@media (max-width: 768px) {
-  .navbar-brand img {
-    height: 40px;
   }
 }
