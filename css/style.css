@@ -629,7 +629,7 @@ color: var(--primary-purple);
   }
 
   .hero h1{
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
   }
  
@@ -639,7 +639,7 @@ color: var(--primary-purple);
   }
 
   .hero p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
   }
 
